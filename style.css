@@ -29,6 +29,22 @@ body {
     font-size: 1rem;
 }
 
+/* タイトル（サイト内検索）を明朝体に */
+h1 {
+  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+  font-weight: normal;
+}
+
+/* 説明文「検索結果」なども明朝体に */
+p {
+  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+}
+
+/* 入力欄のフォントも変えたい場合（任意） */
+input, button {
+  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+}
+
 a {
     color: #000000; /* 通常のリンク色（ここはお好みで変更OK） */
 }
