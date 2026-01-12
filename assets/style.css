@@ -1,0 +1,30 @@
+body {
+  background: #faf8f3;
+  color: #222;
+  font-family: "游明朝", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", serif;
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 0;
+}
+
+main {
+  max-width: 620px;
+  margin: 3.5rem auto 6rem;
+  padding: 0 1rem;
+}
+
+.date-bar {
+  background: #e7d9a8;
+  color: #333;
+  padding: 0.35em 0.7em;
+  font-size: 0.9em;
+  margin-bottom: 2.5em;
+}
+
+.content p {
+  margin: 0 0 1.6em 0;
+}
+
+.content {
+  white-space: normal;
+}
