@@ -1,12 +1,15 @@
 ---
-layout: post
-title: "ブログ"
+layout: default
 ---
 
-{% for post in site.posts %}
-  {% if post.categories contains "blog" %}
-    <p>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </p>
-  {% endif %}
-{% endfor %}
+{% assign latest = site.categories.blog | first %}
+
+<script>
+  window.location.href = "{{ latest.url }}";
+</script>
+
+<noscript>
+  <p>
+    <a href="{{ latest.url }}">最新のブログ記事はこちら</a>
+  </p>
+</noscript>
