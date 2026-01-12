@@ -1,7 +1,10 @@
-/* トップページ・本文内リンクの色を固定する */
+.date-bar a,
 .content a,
+.date-bar a:visited,
 .content a:visited,
+.date-bar a:hover,
 .content a:hover,
+.date-bar a:active,
 .content a:active {
   color: #222;
   text-decoration: underline;
