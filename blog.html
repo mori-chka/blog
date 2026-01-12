@@ -4,7 +4,7 @@ title: "ブログ"
 ---
 
 {% for post in site.posts %}
-  {% if post.category == "blog" %}
+  {% if post.categories == "blog" %}
     <p>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </p>
