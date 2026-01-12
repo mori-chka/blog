@@ -5,11 +5,11 @@ layout: default
 {% assign latest = site.categories.blog | first %}
 
 <script>
-  window.location.href = "{{ latest.url }}";
+  window.location.href = "{{ site.baseurl }}{{ latest.url }}";
 </script>
 
 <noscript>
   <p>
-    <a href="{{ latest.url }}">最新のブログ記事はこちら</a>
+    <a href="{{ site.baseurl }}{{ latest.url }}">最新のブログ記事はこちら</a>
   </p>
 </noscript>
