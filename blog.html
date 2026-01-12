@@ -1,1 +1,12 @@
+---
+layout: post
+title: "ブログ"
+---
 
+{% for post in site.posts %}
+  {% if post.category == "blog" %}
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </p>
+  {% endif %}
+{% endfor %}
