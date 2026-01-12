@@ -28,3 +28,40 @@ main {
 .content {
   white-space: normal;
 }
+
+.top {
+  max-width: 620px;
+  margin: 6rem auto;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+}
+
+.site-desc {
+  font-size: 0.85em;
+  color: #444;
+  margin-bottom: 3em;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 0.8em;
+}
+
+.menu a {
+  color: #222;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
