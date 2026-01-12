@@ -1,1 +1,8 @@
-
+/* トップページ・本文内リンクの色を固定する */
+.content a,
+.content a:visited,
+.content a:hover,
+.content a:active {
+  color: #222;
+  text-decoration: underline;
+}
