@@ -31,3 +31,12 @@
 .content p {
   margin-bottom: 1.8em;
 }
+
+.book-content {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.book-content p {
+  margin-bottom: 2em;
+}
