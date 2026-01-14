@@ -76,3 +76,8 @@
   color: #888;
   margin-bottom: 0.6em;
 }
+
+.quote-entry {
+  font-family: "Hiragino Mincho ProN", "游明朝", "Yu Mincho",
+               "MS Mincho", serif;
+}
