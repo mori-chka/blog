@@ -7,8 +7,7 @@ title: 読んだ本
 
 <article class="content">
   {% for post in site.categories.books %}
-    <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </p>
-  {% endfor %}
-</article>
+  <p>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </p>
+{% endfor %}
