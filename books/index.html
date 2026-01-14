@@ -6,11 +6,15 @@ title: 読んだ本
 <div class="date-bar">読んだ本</div>
 
 <article class="content">
+
   {% for post in site.categories.books %}
-    <p>
-      <a href="{{ site.baseurl }}{{ post.url }}">
+    <section class="book-entry">
+      <div class="date-bar">
         {{ post.title }}
-      </a>
-    </p>
+      </div>
+
+      {{ post.content }}
+    </section>
   {% endfor %}
+
 </article>
