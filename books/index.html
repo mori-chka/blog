@@ -3,14 +3,18 @@ layout: default
 title: 読んだ本
 ---
 
-<h1 class="page-title">読んだ本</h1>
+<div class="content">
 
-<article class="content">
   {% for post in site.categories.books %}
     <div class="quote-entry">
 
-      <!-- ★ここが作品名 -->
-      <h2 class="book-title">{{ post.title }}</h2>
+      <p class="quote-title">
+        {{ post.title }}
+      </p>
+
+      <p class="quote-date">
+        {{ post.date | date: "%Y年%m月%d日" }}
+      </p>
 
       <p class="quote-text">
         {{ post.content | strip_html | truncate: 200 }}
@@ -18,4 +22,5 @@ title: 読んだ本
 
     </div>
   {% endfor %}
-</article>
+
+</div>
