@@ -11,10 +11,6 @@ title: 読んだ本
       <p class="quote-text">
         {{ post.content | strip_html | truncate: 200 }}
       </p>
-
-      <p class="quote-meta">
-        <a href="{{ post.url }}">→ この感想を読む
-      </p>
     </div>
   {% endfor %}
 </article>
