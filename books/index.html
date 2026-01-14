@@ -8,9 +8,14 @@ title: 読んだ本
 <article class="content">
   {% for post in site.categories.books %}
     <div class="quote-entry">
+
+      <!-- ★ここが作品名 -->
+      <h2 class="book-title">{{ post.title }}</h2>
+
       <p class="quote-text">
         {{ post.content | strip_html | truncate: 200 }}
       </p>
+
     </div>
   {% endfor %}
 </article>
