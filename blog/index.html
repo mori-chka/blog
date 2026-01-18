@@ -4,8 +4,9 @@ title: ブログ
 ---
 
 <article class="content">
-  {% for post in site.categories.blog %}
-    
+  {% assign posts = site.categories.blog | reverse %}
+  {% for post in posts %}
+
     <div class="date-bar">
       {{ post.title }}
     </div>
